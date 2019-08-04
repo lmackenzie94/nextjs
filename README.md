@@ -1,0 +1,4 @@
+- `npm install --save react react-dom next`
+- using the '< a >' tag to connect pages won't perform client-side navigation; instead the browser will do a request to the server for the next page and refresh the page (not what we want).
+- instead, `< Link /> will prefetch the page and navigation will happen without a page refresh (i.e. no request to the server). Can verify using browser network request inspector.
+- the 'components' directory can be named anything (the only special directory is 'pages').
