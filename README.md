@@ -2,3 +2,10 @@
 - using the '< a >' tag to connect pages won't perform client-side navigation; instead the browser will do a request to the server for the next page and refresh the page (not what we want).
 - instead, `< Link /> will prefetch the page and navigation will happen without a page refresh (i.e. no request to the server). Can verify using browser network request inspector.
 - the 'components' directory can be named anything (the only special directory is 'pages').
+- Next.js comes with a standard API to fetch data for pages. We do it using an async function called getInitialProps. This works on both the server and the client.
+- `npm install --save isomorphic-unfetch`
+- isomorphic unfetch library is an implementation of the browser 'fetch' API, but works in both the client and server environments.
+- When we click on a link wrapped with the Next.js <Link> component, the page transition takes place in the browser, without making a request to the server.
+- If you just visit a post page directly (eg:- http://localhost:3000/p/975) you'll be able to see the message printed on the server but not in the client.
+- CSS in Js styling should be used over traditional CSS-file-based styling.
+- Next.js comes preloaded with a CSS in JS framework called `styled-jsx`.
