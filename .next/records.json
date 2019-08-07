@@ -1,0 +1,37 @@
+{
+  "modules": {
+    "byIdentifier": {},
+    "usedIds": {}
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/D2B6t8tpJqP8faoqToaQC/pages/_app.js": 2,
+      "static/D2B6t8tpJqP8faoqToaQC/pages/_error.js": 3,
+      "static/D2B6t8tpJqP8faoqToaQC/pages/about.js": 4,
+      "static/D2B6t8tpJqP8faoqToaQC/pages/index.js": 5,
+      "static/D2B6t8tpJqP8faoqToaQC/pages/p/[id].js": 6,
+      "static/D2B6t8tpJqP8faoqToaQC/pages/post.js": 7,
+      "static/runtime/main.js": 8,
+      "static/iBzTlB2Gv7QS6cJs2aJgP/pages/_app.js": 9,
+      "static/iBzTlB2Gv7QS6cJs2aJgP/pages/_error.js": 10,
+      "static/iBzTlB2Gv7QS6cJs2aJgP/pages/about.js": 11,
+      "static/iBzTlB2Gv7QS6cJs2aJgP/pages/index.js": 12,
+      "static/iBzTlB2Gv7QS6cJs2aJgP/pages/p/[id].js": 13,
+      "static/iBzTlB2Gv7QS6cJs2aJgP/pages/post.js": 14
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      14,
+      8,
+      9
+    ]
+  }
+}

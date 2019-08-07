@@ -9,3 +9,4 @@
 - If you just visit a post page directly (eg:- http://localhost:3000/p/975) you'll be able to see the message printed on the server but not in the client.
 - CSS in Js styling should be used over traditional CSS-file-based styling.
 - Next.js comes preloaded with a CSS in JS framework called `styled-jsx`.
+- You can deploy a Next.js app in any environment you can run Node.js.
